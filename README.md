@@ -4,7 +4,7 @@ EFSA's derived toxicological reference values for chemicals in food and feed —
 acceptable daily intakes, acute reference doses, tolerable intakes and operator
 exposure levels — with the assessment body and critical endpoint behind each one.
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1669+ live data sources.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1679+ live data sources.
 
 **3,437 substances, 8,620 reference values.**
 
@@ -97,7 +97,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1669+ data sources. The
+Both URLs reach the same gateway and the same 1679+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 
