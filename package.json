@@ -1,7 +1,7 @@
 {
   "name": "@pipeworx/mcp-openfoodtox",
-  "version": "0.1.1",
-  "description": "EFSA OpenFoodTox — the reference values EFSA has derived for chemical",
+  "version": "0.1.2",
+  "description": "EFSA OpenFoodTox — the reference values EFSA has derived for chemical substances in food and feed: acceptable daily intakes, acute reference doses, tolerable intakes and operator exposure levels, with the assessment body that set each one.",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-6bc5bbdacaec9123435aca31a01ccf0e0342ee5211410675293dc03238f601f0",
-    "sourceCommit": "adb69d997f82a62e8e22b594488c7d04a227db35"
+    "sourceHash": "v1-f49a7cfd7ff871648481b7e330b68a2c54aaf81b27b1c184dbfe36d38fd3e423",
+    "sourceCommit": "514e3efb42b8d81082c07e01d3ae7654bbf91f52"
   }
 }
