@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-openfoodtox",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "EFSA OpenFoodTox — the reference values EFSA has derived for chemical substances in food and feed: acceptable daily intakes, acute reference doses, tolerable intakes and operator exposure levels, with the assessment body that set each one.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-openfoodtox": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "openfoodtox"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-openfoodtox.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/openfoodtox",
   "pipeworx": {
-    "sourceHash": "v1-f49a7cfd7ff871648481b7e330b68a2c54aaf81b27b1c184dbfe36d38fd3e423",
-    "sourceCommit": "514e3efb42b8d81082c07e01d3ae7654bbf91f52"
+    "mode": "gateway",
+    "slug": "openfoodtox",
+    "gatewaySlug": "openfoodtox",
+    "sourceHash": "v1-4439cf6916ae1245f79c58d699dbad5759547db495028bf7ddea19958c24e4bd",
+    "sourceCommit": "b2c4383545bb35171d0ada2beb1c9c7168ea175e"
   }
 }
